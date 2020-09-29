@@ -46,6 +46,11 @@ float Add_Tax_Tip( float check_total, float sales_tax, float tip )
         log_err_cnt++;
         printf("\nError in Logging Tax Receipts\n");
     }
+    else
+    {
+      printf("\nNo Error in Logging Tax Receipts\n");
+    }
+    
 
     new_total = check_total * (1 + tax + tip);
     return( new_total );
