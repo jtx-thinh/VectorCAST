@@ -43,6 +43,42 @@ float Add_Tax_Tip( float check_total, float sales_tax, float tip )
     {
         tax = default_tax;
     }
+    else if (sales_tax == 2)
+    {
+        tax = default_tax;
+    }
+    else if (sales_tax == 3)
+    {
+        tax = default_tax;
+    }
+    else if (sales_tax == 4)
+    {
+        tax = default_tax;
+    }
+    else if (sales_tax == 5)
+    {
+        tax = default_tax;
+    }
+    else if (sales_tax == 6)
+    {
+        tax = default_tax;
+    }
+    else if (sales_tax == 7)
+    {
+        tax = default_tax;
+    }
+    else if (sales_tax == 8)
+    {
+        tax = default_tax;
+    }
+    else if (sales_tax == 9)
+    {
+        tax = default_tax;
+    }
+    else if (sales_tax == 10)
+    {
+        tax = default_tax;
+    }
     else
     {
         tax = 0;
