@@ -1,0 +1,44 @@
+#line 3 "vcast_preprocess.2200.20.c"                                                                                                                           
+# 1 "vcast_preprocess.2200.18.c" 1
+
+typedef int VECTORCAST_MARKER__UNIT_PREFIX_START;
+
+typedef int VECTORCAST_MARKER__UNIT_PREFIX_END;
+# 1 "C:/VCAST/Training/SourceFiles/math.c" 1
+
+
+
+
+float g_result = 0;
+
+float Add( float x, float y)
+{
+    g_result = x + y;
+    return(g_result);
+}
+
+float Subtract( float x, float y)
+{
+    g_result = x - y;
+    return(g_result);
+}
+
+float Multiply( float x, float y)
+{
+    g_result = x * y;
+    return(g_result);
+}
+
+float Divide( float x, float y)
+{
+    g_result = x / y;
+    return(g_result);
+}
+# 6 "vcast_preprocess.2200.18.c" 2
+
+typedef int VECTORCAST_MARKER__UNIT_APPENDIX_START;
+
+typedef int VECTORCAST_MARKER__UNIT_APPENDIX_END;
+# 4 "vcast_preprocess.2200.20.c" 2
+
+                                               

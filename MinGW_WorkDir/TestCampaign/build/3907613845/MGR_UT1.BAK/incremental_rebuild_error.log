@@ -1,0 +1,6 @@
+Preprocess Failed: C:\VCAST\Training\SourceFiles\manager.c
+In file included from vcast_preprocess.17512.2.c:3:0:
+vcast_preprocess.17512.0.c:5:51: fatal error: C:/VCAST/Training/SourceFiles/manager.c: No such file or directory
+ #include "C:/VCAST/Training/SourceFiles/manager.c"
+                                                   ^
+compilation terminated.

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="28">
+  <config>
+    <config>
+      <key>WHITEBOX</key>
+      <value>YES</value>
+      <key>COVERAGE_TYPE</key>
+      <value>None</value>
+      <key>VCAST_CUSTOM_REPORT_FORMAT</key>
+      <value>HTML</value>
+    </config>
+    <search-directory type="TESTABLE_SOURCE_DIR">C:\VCAST\Training\SourceFiles</search-directory>
+    <saved-logs>5</saved-logs>
+    <build-directory-naming-strategy>COMPRESSED</build-directory-naming-strategy>
+  </config>
+  <project-id>1595816650</project-id>
+  <factor-config-options>0</factor-config-options>
+  <environment name="DISH_WHITEBOX" type="UNIT">
+    <language>2</language>
+    <is-monitored>0</is-monitored>
+    <config>
+      <original-environment-directory>TestCampaign/build/3707052758</original-environment-directory>
+    </config>
+  </environment>
+  <environment name="MATH" type="UNIT">
+    <language>2</language>
+    <is-monitored>0</is-monitored>
+    <config>
+      <original-environment-directory>TestCampaign/build/2598723541</original-environment-directory>
+    </config>
+  </environment>
+  <environment name="MGR_UT1" type="UNIT">
+    <language>2</language>
+    <is-monitored>0</is-monitored>
+    <config>
+      <original-environment-directory>TestCampaign/build/3907613845</original-environment-directory>
+    </config>
+  </environment>
+  <group name="Group">
+    <environment name="DISH_WHITEBOX"/>
+    <environment name="MATH"/>
+    <environment name="MGR_UT1"/>
+  </group>
+  <compiler>
+    <compiler>
+      <name>VectorCAST_MinGW_C++</name>
+      <config>
+        <config>
+          <key>C_COMPILER_TAG</key>
+          <value>BUILTIN_MINGW_63_CPP</value>
+        </config>
+      </config>
+    </compiler>
+    <testsuite name="TestSuite">
+      <group name="Group"/>
+    </testsuite>
+  </compiler>
+</project>

@@ -1,0 +1,36 @@
+COMMAND: C:\VCAST\clicast.exe -e MGR_UT1 environment script create C:/VCAST/Training/MinGW_WorkDir/TestCampaign/build/3907613845/MGR_UT1.env
+DIRECTORY: C:/VCAST/Training/MinGW_WorkDir/TestCampaign/build/3907613845
+TIME: 2020-09-29 11:31:10
+TEST SUITE: VectorCAST_MinGW_C++/TestSuite
+-----------------------------Process Environment------------------------------
+Path=C:\VCAST\MinGW\bin;C:\VCAST;C:\PROGRA~2\Renesas\Hew\Tools\Renesas\nc30wa\v545r01\lib30;C:\PROGRA~2\Renesas\Hew\Tools\Renesas\nc30wa\v545r01\bin;C:\PROGRA~2\FREESC~1\CWS12v5.1\Prog;D:\app\product\11.2.0\client_1;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\System32;C:\Windows;C:\Windows\System32\wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;D:\apache-maven-3.6.2\bin;C:\gradle-5.6.1\bin;C:\Program Files\nodejs\;D:\Setups\windows;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Vector CANdb++ 3.1\Exec32;C:\Program Files\PuTTYJP\;C:\PROGRA~2\Renesas\Hew\Tools\Renesas\Sh\8_0_1\bin;C:\PROGRA~2\Renesas\Hew\Tools\Renesas\nc308wa\v542r00\bin;C:\PROGRA~2\Renesas\Hew\Tools\Renesas\nc308wa\v542r00\inc308;C:\PROGRA~2\Renesas\Hew\Tools\Renesas\nc308wa\v542r00\lib308;C:\PROGRA~2\Renesas\Hew\Tools\Renesas\nc30wa\v545r01\inc30;C:\Program Files\TortoiseSVN\bin;C:\Program Files\VisualSVN Server\bin;C:\Progra~2\Renesas\Hew;C:\Users\PC 1911 0527\.dnx\bin;C:\Users\PC 1911 0527\AppData\Local\Microsoft\WindowsApps;C:\Users\PC 1911 0527\AppData\Roaming\npm;C:\Users\PC 1911 0527\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Salesforce CLI\bin;C:\Users\PC 1911 0527\.dotnet\tools;C:\Users\PC 1911 0527\AppData\Local\Microsoft\WindowsApps;C:\Users\PC 1911 0527\.dotnet\tools
+VCAST_MANAGE_PROJECT_DIRECTORY=C:/VCAST/Training/MinGW_WorkDir/TestCampaign
+---------------------------End Process Environment----------------------------
+VectorCAST   Copyright (C) 1993 - 2020
+**Version 19.sp4 (01/07/20)
+    Processing options file c:\VCAST\Training\MinGW_WorkDir\TestCampaign\build\3907613845\CCAST_.CFG
+    Opening Environment
+    Opening Parameter/Global File
+    Opening Types File
+    Environment is Open
+    Building Script File
+    Script Building Completed
+COMMAND: C:\VCAST\clicast.exe -e MGR_UT1 test script create C:/VCAST/Training/MinGW_WorkDir/TestCampaign/build/3907613845/MGR_UT1.tst
+DIRECTORY: C:/VCAST/Training/MinGW_WorkDir/TestCampaign/build/3907613845
+TIME: 2020-09-29 11:31:11
+TEST SUITE: VectorCAST_MinGW_C++/TestSuite
+-----------------------------Process Environment------------------------------
+Path=C:\VCAST\MinGW\bin;C:\VCAST;C:\PROGRA~2\Renesas\Hew\Tools\Renesas\nc30wa\v545r01\lib30;C:\PROGRA~2\Renesas\Hew\Tools\Renesas\nc30wa\v545r01\bin;C:\PROGRA~2\FREESC~1\CWS12v5.1\Prog;D:\app\product\11.2.0\client_1;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\System32;C:\Windows;C:\Windows\System32\wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;D:\apache-maven-3.6.2\bin;C:\gradle-5.6.1\bin;C:\Program Files\nodejs\;D:\Setups\windows;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Vector CANdb++ 3.1\Exec32;C:\Program Files\PuTTYJP\;C:\PROGRA~2\Renesas\Hew\Tools\Renesas\Sh\8_0_1\bin;C:\PROGRA~2\Renesas\Hew\Tools\Renesas\nc308wa\v542r00\bin;C:\PROGRA~2\Renesas\Hew\Tools\Renesas\nc308wa\v542r00\inc308;C:\PROGRA~2\Renesas\Hew\Tools\Renesas\nc308wa\v542r00\lib308;C:\PROGRA~2\Renesas\Hew\Tools\Renesas\nc30wa\v545r01\inc30;C:\Program Files\TortoiseSVN\bin;C:\Program Files\VisualSVN Server\bin;C:\Progra~2\Renesas\Hew;C:\Users\PC 1911 0527\.dnx\bin;C:\Users\PC 1911 0527\AppData\Local\Microsoft\WindowsApps;C:\Users\PC 1911 0527\AppData\Roaming\npm;C:\Users\PC 1911 0527\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Salesforce CLI\bin;C:\Users\PC 1911 0527\.dotnet\tools;C:\Users\PC 1911 0527\AppData\Local\Microsoft\WindowsApps;C:\Users\PC 1911 0527\.dotnet\tools
+VCAST_MANAGE_PROJECT_DIRECTORY=C:/VCAST/Training/MinGW_WorkDir/TestCampaign
+---------------------------End Process Environment----------------------------
+VectorCAST   Copyright (C) 1993 - 2020
+**Version 19.sp4 (01/07/20)
+    Processing options file c:\VCAST\Training\MinGW_WorkDir\TestCampaign\build\3907613845\CCAST_.CFG
+    Opening Environment
+    Opening Parameter/Global File
+    Opening Types File
+    Environment is Open
+    Creating Script File
+    Building Test Case Script
+    Test Case Script Created
+    Script processing completed

@@ -1,0 +1,43 @@
+COMMAND: C:\VCAST\clicast.exe -e MGR_UT1 -l CPLUSPLUS environment incremental rebuild C:/VCAST/Training/MinGW_WorkDir/TestCampaign/build/3907613845/MGR_UT1.env
+DIRECTORY: C:/VCAST/Training/MinGW_WorkDir/TestCampaign/build/3907613845
+TIME: 2020-09-29 15:27:52
+TEST SUITE: VectorCAST_MinGW_C++/TestSuite
+-----------------------------Process Environment------------------------------
+VCAST_MANAGE_PROJECT_DIRECTORY=C:/VCAST/Training/MinGW_WorkDir/TestCampaign
+---------------------------End Process Environment----------------------------
+VectorCAST   Copyright (C) 1993 - 2020
+**Version 19.sp4 (01/07/20)
+    Processing options file c:\VCAST\Training\MinGW_WorkDir\TestCampaign\build\3907613845\CCAST_.CFG
+    Opening Environment
+    Opening Parameter/Global File
+    Opening Types File
+    Environment is Open
+    No Probe Points found.
+    ** ERROR: Preprocess Failed: C:\VCAST\Training\SourceFiles\manager.c
+In file 
+       included from 
+       vcast_preprocess.17512.2.c:3:0:
+vcast_preprocess.17512.0.c:5:51: fatal 
+       error: C:/VCAST/Training/SourceFiles/manager.c: No such file or directory
+ 
+       #include "C:/VCAST/Training/SourceFiles/manager.c"
+                          
+                                ^
+compilation terminated.
+    Error incrementally rebuilding environment
+    Previous harness files restored
+EXIT_CODE: 22
+COMMAND: C:\VCAST\clicast.exe -e MGR_UT1 tools delete_imported_results
+DIRECTORY: C:/VCAST/Training/MinGW_WorkDir/TestCampaign/build/3907613845
+TIME: 2020-09-29 15:27:53
+TEST SUITE: VectorCAST_MinGW_C++/TestSuite
+-----------------------------Process Environment------------------------------
+VCAST_MANAGE_PROJECT_DIRECTORY=C:/VCAST/Training/MinGW_WorkDir/TestCampaign
+---------------------------End Process Environment----------------------------
+VectorCAST   Copyright (C) 1993 - 2020
+**Version 19.sp4 (01/07/20)
+    Processing options file c:\VCAST\Training\MinGW_WorkDir\TestCampaign\build\3907613845\CCAST_.CFG
+    Opening Environment
+    Opening Parameter/Global File
+    Opening Types File
+    Environment is Open

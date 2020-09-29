@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env_info>
+  <needed_entities>
+    <unit id="9">
+      <variable id="NULL_ORDER" name="NULL_ORDER" defined="1" type="compound" file="1">
+        <reference type="initialized" function-scope="false" line="11" col="25" statement-line="11" statement-col="25" statement-end-line="12" statement-end-col="61"/>
+      </variable>
+      <function id="printf" name="printf" defined="0" const="0" file="2" return="int">
+        <parameters>
+          <parameter type="const char*" name="&lt;anon&gt;"/>
+        </parameters>
+      </function>
+      <function id="log_tax_receipts" name="log_tax_receipts" defined="0" const="0" file="3" return="int">
+        <parameters>
+          <parameter type="float" name="this_tax_ttl"/>
+        </parameters>
+      </function>
+      <function id="Get_Table_Record" name="Get_Table_Record" defined="0" const="0" file="3" return="table_data_type">
+        <parameters>
+          <parameter type="table_index_type" name="Table"/>
+        </parameters>
+      </function>
+      <function id="Update_Table_Record" name="Update_Table_Record" defined="0" const="0" file="3" return="">
+        <parameters>
+          <parameter type="table_index_type" name="Table"/>
+          <parameter type="float" name="check_total"/>
+          <parameter type="table_data_type" name="Data"/>
+        </parameters>
+      </function>
+      <function id="Add_Tax_Tip" name="Add_Tax_Tip" defined="1" const="0" file="1" return="float">
+        <parameters>
+          <parameter type="float" name="check_total"/>
+          <parameter type="float" name="sales_tax"/>
+          <parameter type="float" name="tip"/>
+        </parameters>
+      </function>
+      <function id="Add_Included_Dessert" name="Add_Included_Dessert" defined="1" const="0" file="1" return="int">
+        <parameters>
+          <parameter type="struct order_type*" name="Order"/>
+        </parameters>
+      </function>
+      <function id="Place_Order" name="Place_Order" defined="1" const="0" file="1" return="float">
+        <parameters>
+          <parameter type="table_index_type" name="Table"/>
+          <parameter type="seat_index_type" name="Seat"/>
+          <parameter type="order_type" name="Order"/>
+        </parameters>
+      </function>
+      <function id="Clear_Table" name="Clear_Table" defined="1" const="0" file="1" return="int">
+        <parameters>
+          <parameter type="table_index_type" name="Table"/>
+        </parameters>
+      </function>
+      <function id="Get_Check_Total" name="Get_Check_Total" defined="1" const="0" file="1" return="float">
+        <parameters>
+          <parameter type="table_index_type" name="Table"/>
+        </parameters>
+      </function>
+      <function id="Add_Party_To_Waiting_List" name="Add_Party_To_Waiting_List" defined="1" const="0" file="1" return="">
+        <parameters>
+          <parameter type="char*" name="Name"/>
+        </parameters>
+      </function>
+      <function id="Get_Next_Party_To_Be_Seated" name="Get_Next_Party_To_Be_Seated" defined="1" const="0" file="1" return="char*"/>
+    </unit>
+  </needed_entities>
+  <files>
+    <file id="1">C:/VCAST/Training/SourceFiles/manager.c</file>
+    <file id="2">c:\vcast\mingw\include\stdio.h</file>
+    <file id="3">C:/VCAST/Training/SourceFiles/database.h</file>
+  </files>
+</env_info>

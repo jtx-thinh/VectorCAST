@@ -1,4 +1,0 @@
-
-void noPrototype () {
-     stub ();
-}

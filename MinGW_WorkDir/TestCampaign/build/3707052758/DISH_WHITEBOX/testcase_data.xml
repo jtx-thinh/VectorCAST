@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE testcase_data>
+<testcase_data xml_testcase_version="2.0">
+  <compound>
+    <name>&lt;&lt;COMPOUND&gt;&gt;</name>
+    <testcase index="1">
+      <name>&lt;&lt;COMPOUND&gt;&gt;.001</name>
+      <unique_id>3</unique_id>
+    </testcase>
+  </compound>
+  <init>
+    <name>&lt;&lt;INIT&gt;&gt;</name>
+    <testcase index="1">
+      <name>POWER_ON</name>
+      <unique_id>2</unique_id>
+    </testcase>
+  </init>
+  <unit index="9" coverage_type="None">
+    <name>dishwasher_fsm</name>
+    <subprogram index="1">
+      <name>checkHeatingElement</name>
+    </subprogram>
+    <subprogram index="2">
+      <name>processIdleState</name>
+      <testcase index="1">
+        <name>START_WASH</name>
+        <unique_id>1</unique_id>
+      </testcase>
+    </subprogram>
+    <subprogram index="3">
+      <name>processWashCycle</name>
+      <testcase index="1">
+        <name>START_RINSE</name>
+        <unique_id>4</unique_id>
+      </testcase>
+    </subprogram>
+    <subprogram index="4">
+      <name>processRinseCycle</name>
+      <testcase index="1">
+        <name>NO_HEAT</name>
+        <unique_id>7</unique_id>
+      </testcase>
+    </subprogram>
+    <subprogram index="5">
+      <name>processDryCycle</name>
+    </subprogram>
+    <subprogram index="6">
+      <name>applyPower</name>
+    </subprogram>
+    <subprogram index="7">
+      <name>turnOffPower</name>
+    </subprogram>
+    <subprogram index="8">
+      <name>EventHandler</name>
+    </subprogram>
+  </unit>
+</testcase_data>

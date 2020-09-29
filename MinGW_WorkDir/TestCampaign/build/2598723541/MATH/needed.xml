@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env_info>
+  <needed_entities>
+    <unit id="9">
+      <variable id="g_result" name="g_result" defined="1" type="scalar" file="1">
+        <reference type="initialized" function-scope="false" line="5" col="7" statement-line="5" statement-col="7" statement-end-line="5" statement-end-col="18"/>
+      </variable>
+      <function id="Add" name="Add" defined="1" const="0" file="1" return="float">
+        <parameters>
+          <parameter type="float" name="x"/>
+          <parameter type="float" name="y"/>
+        </parameters>
+      </function>
+      <function id="Subtract" name="Subtract" defined="1" const="0" file="1" return="float">
+        <parameters>
+          <parameter type="float" name="x"/>
+          <parameter type="float" name="y"/>
+        </parameters>
+      </function>
+      <function id="Multiply" name="Multiply" defined="1" const="0" file="1" return="float">
+        <parameters>
+          <parameter type="float" name="x"/>
+          <parameter type="float" name="y"/>
+        </parameters>
+      </function>
+      <function id="Divide" name="Divide" defined="1" const="0" file="1" return="float">
+        <parameters>
+          <parameter type="float" name="x"/>
+          <parameter type="float" name="y"/>
+        </parameters>
+      </function>
+    </unit>
+  </needed_entities>
+  <files>
+    <file id="1">C:/VCAST/Training/SourceFiles/math.c</file>
+  </files>
+</env_info>

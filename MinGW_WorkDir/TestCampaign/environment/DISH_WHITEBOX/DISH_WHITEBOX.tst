@@ -1,0 +1,77 @@
+-- VectorCAST 19.sp4 (01/07/20)
+-- Test Case Script
+-- 
+-- Environment    : DISH_WHITEBOX
+-- Unit(s) Under Test: dishwasher_fsm
+-- 
+-- Script Features
+TEST.SCRIPT_FEATURE:C_DIRECT_ARRAY_INDEXING
+TEST.SCRIPT_FEATURE:CPP_CLASS_OBJECT_REVISION
+TEST.SCRIPT_FEATURE:MULTIPLE_UUT_SUPPORT
+TEST.SCRIPT_FEATURE:MIXED_CASE_NAMES
+TEST.SCRIPT_FEATURE:STANDARD_SPACING_R2
+TEST.SCRIPT_FEATURE:OVERLOADED_CONST_SUPPORT
+TEST.SCRIPT_FEATURE:UNDERSCORE_NULLPTR
+TEST.SCRIPT_FEATURE:FULL_PARAMETER_TYPES
+TEST.SCRIPT_FEATURE:STRUCT_DTOR_ADDS_POINTER
+TEST.SCRIPT_FEATURE:STRUCT_FIELD_CTOR_ADDS_POINTER
+TEST.SCRIPT_FEATURE:STATIC_HEADER_FUNCS_IN_UUTS
+TEST.SCRIPT_FEATURE:VCAST_MAIN_NOT_RENAMED
+--
+
+-- Subprogram: <<INIT>>
+
+-- Test Case: POWER_ON
+TEST.SUBPROGRAM:<<INIT>>
+TEST.NEW
+TEST.NAME:POWER_ON
+TEST.AUTOMATIC_INITIALIZATION
+TEST.VALUE:dishwasher_fsm.<<GLOBAL>>.powerOn:1
+TEST.END
+
+-- Unit: dishwasher_fsm
+
+-- Subprogram: processIdleState
+
+-- Test Case: START_WASH
+TEST.UNIT:dishwasher_fsm
+TEST.SUBPROGRAM:processIdleState
+TEST.NEW
+TEST.NAME:START_WASH
+TEST.VALUE:dishwasher_fsm.processIdleState.event:EVENT_START_WASH
+TEST.EXPECTED:dishwasher_fsm.processIdleState.return:STS_ALL_GOOD
+TEST.END
+
+-- Subprogram: processRinseCycle
+
+-- Test Case: NO_HEAT
+TEST.UNIT:dishwasher_fsm
+TEST.SUBPROGRAM:processRinseCycle
+TEST.NEW
+TEST.NAME:NO_HEAT
+TEST.STUB:dishwasher_fsm.checkHeatingElement
+TEST.VALUE:dishwasher_fsm.checkHeatingElement.return:STS_NO_HEAT
+TEST.VALUE:dishwasher_fsm.processRinseCycle.event:EVENT_START_DRY
+TEST.EXPECTED:dishwasher_fsm.processRinseCycle.return:STS_NO_HEAT
+TEST.END
+
+-- Subprogram: processWashCycle
+
+-- Test Case: START_RINSE
+TEST.UNIT:dishwasher_fsm
+TEST.SUBPROGRAM:processWashCycle
+TEST.NEW
+TEST.NAME:START_RINSE
+TEST.VALUE:dishwasher_fsm.processWashCycle.event:EVENT_START_RINSE
+TEST.EXPECTED:dishwasher_fsm.processWashCycle.return:STS_ALL_GOOD
+TEST.END
+
+-- COMPOUND TESTS
+
+TEST.SUBPROGRAM:<<COMPOUND>>
+TEST.NEW
+TEST.NAME:<<COMPOUND>>.001
+TEST.SLOT: "1", "<<INIT>>", "<<INIT>>", "1", "POWER_ON"
+TEST.SLOT: "2", "dishwasher_fsm", "processIdleState", "1", "START_WASH"
+TEST.END
+--

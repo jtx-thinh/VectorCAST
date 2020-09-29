@@ -1,0 +1,6 @@
+Preprocess Failed: C:\VCAST\Training\SourceFiles\math.c
+In file included from vcast_preprocess.17560.2.c:3:0:
+vcast_preprocess.17560.0.c:5:48: fatal error: C:/VCAST/Training/SourceFiles/math.c: No such file or directory
+ #include "C:/VCAST/Training/SourceFiles/math.c"
+                                                ^
+compilation terminated.

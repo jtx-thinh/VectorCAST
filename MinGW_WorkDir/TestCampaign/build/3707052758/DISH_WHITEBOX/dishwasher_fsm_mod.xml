@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<changeset checksum="3926721288">
+  <modification id="0">
+    <kind>ADD_TEXT_AFTER</kind>
+    <pos description="FUNCTION_BODY_OPEN" function="checkHeatingElement">
+      <line>59</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+extern enum e_status R_9_1;
+extern unsigned char SBF_9_1;
+if(SBF_9_1) {
+  vCAST_USER_CODE_TIMER_STOP();
+#define BEGINNING_OF_STUB_USER_CODE_9_94123813
+#include "vcast_configure_stub.c"
+#undef BEGINNING_OF_STUB_USER_CODE_9_94123813
+  if ( vcast_is_in_driver ) {
+    vCAST_COMMON_STUB_PROC_9( 9, 1, 1, 0 );
+  } /* vcast_is_in_driver */
+#define END_OF_STUB_USER_CODE_9_94123813
+#include "vcast_configure_stub.c"
+#undef END_OF_STUB_USER_CODE_9_94123813
+  vCAST_USER_CODE_TIMER_START();
+  return R_9_1;
+}
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="1">
+    <kind>ADD_TEXT_AFTER</kind>
+    <pos description="FUNCTION_BODY_OPEN" function="checkHeatingElement">
+      <line>59</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/{/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="2">
+    <kind>ADD_TEXT_BEFORE</kind>
+    <pos description="FUNCTION_BODY_CLOSE" function="checkHeatingElement">
+      <line>61</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/}/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="3">
+    <kind>ADD_TEXT_BEFORE</kind>
+    <pos description="UNIT_APPENDIX_START">
+      <line>247</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+enum e_status R_9_1;
+unsigned char SBF_9_1 = 0;
+
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="4">
+    <kind>ADD_TEXT_AFTER</kind>
+    <pos description="FUNCTION_BODY_OPEN" function="processIdleState">
+      <line>69</line>
+      <col>50</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+extern enum eventValues P_9_2_1;
+extern enum e_status R_9_2;
+extern unsigned char SBF_9_2;
+if(SBF_9_2) {
+  vCAST_USER_CODE_TIMER_STOP();
+#define BEGINNING_OF_STUB_USER_CODE_9_2834802376
+#include "vcast_configure_stub.c"
+#undef BEGINNING_OF_STUB_USER_CODE_9_2834802376
+  if ( vcast_is_in_driver ) {
+    P_9_2_1 = event;
+    vCAST_COMMON_STUB_PROC_9( 9, 2, 2, 0 );
+  } /* vcast_is_in_driver */
+#define END_OF_STUB_USER_CODE_9_2834802376
+#include "vcast_configure_stub.c"
+#undef END_OF_STUB_USER_CODE_9_2834802376
+  vCAST_USER_CODE_TIMER_START();
+  return R_9_2;
+}
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="5">
+    <kind>ADD_TEXT_AFTER</kind>
+    <pos description="FUNCTION_BODY_OPEN" function="processIdleState">
+      <line>69</line>
+      <col>50</col>
+    </pos>
+    <text>/*vcast_internal_start*/{/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="6">
+    <kind>ADD_TEXT_BEFORE</kind>
+    <pos description="FUNCTION_BODY_CLOSE" function="processIdleState">
+      <line>95</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/}/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="7">
+    <kind>ADD_TEXT_BEFORE</kind>
+    <pos description="UNIT_APPENDIX_START">
+      <line>247</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+enum eventValues P_9_2_1;
+enum e_status R_9_2;
+unsigned char SBF_9_2 = 0;
+
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="8">
+    <kind>ADD_TEXT_AFTER</kind>
+    <pos description="FUNCTION_BODY_OPEN" function="processWashCycle">
+      <line>104</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+extern enum eventValues P_9_3_1;
+extern enum e_status R_9_3;
+extern unsigned char SBF_9_3;
+if(SBF_9_3) {
+  vCAST_USER_CODE_TIMER_STOP();
+#define BEGINNING_OF_STUB_USER_CODE_9_3121139166
+#include "vcast_configure_stub.c"
+#undef BEGINNING_OF_STUB_USER_CODE_9_3121139166
+  if ( vcast_is_in_driver ) {
+    P_9_3_1 = event;
+    vCAST_COMMON_STUB_PROC_9( 9, 3, 2, 0 );
+  } /* vcast_is_in_driver */
+#define END_OF_STUB_USER_CODE_9_3121139166
+#include "vcast_configure_stub.c"
+#undef END_OF_STUB_USER_CODE_9_3121139166
+  vCAST_USER_CODE_TIMER_START();
+  return R_9_3;
+}
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="9">
+    <kind>ADD_TEXT_AFTER</kind>
+    <pos description="FUNCTION_BODY_OPEN" function="processWashCycle">
+      <line>104</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/{/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="10">
+    <kind>ADD_TEXT_BEFORE</kind>
+    <pos description="FUNCTION_BODY_CLOSE" function="processWashCycle">
+      <line>130</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/}/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="11">
+    <kind>ADD_TEXT_BEFORE</kind>
+    <pos description="UNIT_APPENDIX_START">
+      <line>247</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+enum eventValues P_9_3_1;
+enum e_status R_9_3;
+unsigned char SBF_9_3 = 0;
+
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="12">
+    <kind>ADD_TEXT_AFTER</kind>
+    <pos description="FUNCTION_BODY_OPEN" function="processRinseCycle">
+      <line>133</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+extern enum eventValues P_9_4_1;
+extern enum e_status R_9_4;
+extern unsigned char SBF_9_4;
+if(SBF_9_4) {
+  vCAST_USER_CODE_TIMER_STOP();
+#define BEGINNING_OF_STUB_USER_CODE_9_2395145557
+#include "vcast_configure_stub.c"
+#undef BEGINNING_OF_STUB_USER_CODE_9_2395145557
+  if ( vcast_is_in_driver ) {
+    P_9_4_1 = event;
+    vCAST_COMMON_STUB_PROC_9( 9, 4, 2, 0 );
+  } /* vcast_is_in_driver */
+#define END_OF_STUB_USER_CODE_9_2395145557
+#include "vcast_configure_stub.c"
+#undef END_OF_STUB_USER_CODE_9_2395145557
+  vCAST_USER_CODE_TIMER_START();
+  return R_9_4;
+}
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="13">
+    <kind>ADD_TEXT_AFTER</kind>
+    <pos description="FUNCTION_BODY_OPEN" function="processRinseCycle">
+      <line>133</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/{/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="14">
+    <kind>ADD_TEXT_BEFORE</kind>
+    <pos description="FUNCTION_BODY_CLOSE" function="processRinseCycle">
+      <line>162</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/}/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="15">
+    <kind>ADD_TEXT_BEFORE</kind>
+    <pos description="UNIT_APPENDIX_START">
+      <line>247</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+enum eventValues P_9_4_1;
+enum e_status R_9_4;
+unsigned char SBF_9_4 = 0;
+
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="16">
+    <kind>ADD_TEXT_AFTER</kind>
+    <pos description="FUNCTION_BODY_OPEN" function="processDryCycle">
+      <line>164</line>
+      <col>49</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+extern enum eventValues P_9_5_1;
+extern enum e_status R_9_5;
+extern unsigned char SBF_9_5;
+if(SBF_9_5) {
+  vCAST_USER_CODE_TIMER_STOP();
+#define BEGINNING_OF_STUB_USER_CODE_9_343587927
+#include "vcast_configure_stub.c"
+#undef BEGINNING_OF_STUB_USER_CODE_9_343587927
+  if ( vcast_is_in_driver ) {
+    P_9_5_1 = event;
+    vCAST_COMMON_STUB_PROC_9( 9, 5, 2, 0 );
+  } /* vcast_is_in_driver */
+#define END_OF_STUB_USER_CODE_9_343587927
+#include "vcast_configure_stub.c"
+#undef END_OF_STUB_USER_CODE_9_343587927
+  vCAST_USER_CODE_TIMER_START();
+  return R_9_5;
+}
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="17">
+    <kind>ADD_TEXT_AFTER</kind>
+    <pos description="FUNCTION_BODY_OPEN" function="processDryCycle">
+      <line>164</line>
+      <col>49</col>
+    </pos>
+    <text>/*vcast_internal_start*/{/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="18">
+    <kind>ADD_TEXT_BEFORE</kind>
+    <pos description="FUNCTION_BODY_CLOSE" function="processDryCycle">
+      <line>180</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/}/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="19">
+    <kind>ADD_TEXT_BEFORE</kind>
+    <pos description="UNIT_APPENDIX_START">
+      <line>247</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+enum eventValues P_9_5_1;
+enum e_status R_9_5;
+unsigned char SBF_9_5 = 0;
+
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="20">
+    <kind>ADD_TEXT_AFTER</kind>
+    <pos description="FUNCTION_BODY_OPEN" function="applyPower">
+      <line>187</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+extern enum e_status R_9_6;
+extern unsigned char SBF_9_6;
+if(SBF_9_6) {
+  vCAST_USER_CODE_TIMER_STOP();
+#define BEGINNING_OF_STUB_USER_CODE_9_1292826204
+#include "vcast_configure_stub.c"
+#undef BEGINNING_OF_STUB_USER_CODE_9_1292826204
+  if ( vcast_is_in_driver ) {
+    vCAST_COMMON_STUB_PROC_9( 9, 6, 1, 0 );
+  } /* vcast_is_in_driver */
+#define END_OF_STUB_USER_CODE_9_1292826204
+#include "vcast_configure_stub.c"
+#undef END_OF_STUB_USER_CODE_9_1292826204
+  vCAST_USER_CODE_TIMER_START();
+  return R_9_6;
+}
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="21">
+    <kind>ADD_TEXT_AFTER</kind>
+    <pos description="FUNCTION_BODY_OPEN" function="applyPower">
+      <line>187</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/{/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="22">
+    <kind>ADD_TEXT_BEFORE</kind>
+    <pos description="FUNCTION_BODY_CLOSE" function="applyPower">
+      <line>197</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/}/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="23">
+    <kind>ADD_TEXT_BEFORE</kind>
+    <pos description="UNIT_APPENDIX_START">
+      <line>247</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+enum e_status R_9_6;
+unsigned char SBF_9_6 = 0;
+
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="24">
+    <kind>ADD_TEXT_AFTER</kind>
+    <pos description="FUNCTION_BODY_OPEN" function="turnOffPower">
+      <line>200</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+extern enum e_status R_9_7;
+extern unsigned char SBF_9_7;
+if(SBF_9_7) {
+  vCAST_USER_CODE_TIMER_STOP();
+#define BEGINNING_OF_STUB_USER_CODE_9_3756921254
+#include "vcast_configure_stub.c"
+#undef BEGINNING_OF_STUB_USER_CODE_9_3756921254
+  if ( vcast_is_in_driver ) {
+    vCAST_COMMON_STUB_PROC_9( 9, 7, 1, 0 );
+  } /* vcast_is_in_driver */
+#define END_OF_STUB_USER_CODE_9_3756921254
+#include "vcast_configure_stub.c"
+#undef END_OF_STUB_USER_CODE_9_3756921254
+  vCAST_USER_CODE_TIMER_START();
+  return R_9_7;
+}
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="25">
+    <kind>ADD_TEXT_AFTER</kind>
+    <pos description="FUNCTION_BODY_OPEN" function="turnOffPower">
+      <line>200</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/{/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="26">
+    <kind>ADD_TEXT_BEFORE</kind>
+    <pos description="FUNCTION_BODY_CLOSE" function="turnOffPower">
+      <line>210</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/}/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="27">
+    <kind>ADD_TEXT_BEFORE</kind>
+    <pos description="UNIT_APPENDIX_START">
+      <line>247</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+enum e_status R_9_7;
+unsigned char SBF_9_7 = 0;
+
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="28">
+    <kind>ADD_TEXT_AFTER</kind>
+    <pos description="FUNCTION_BODY_OPEN" function="EventHandler">
+      <line>216</line>
+      <col>39</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+extern enum eventValues P_9_8_1;
+extern enum e_status R_9_8;
+extern unsigned char SBF_9_8;
+if(SBF_9_8) {
+  vCAST_USER_CODE_TIMER_STOP();
+#define BEGINNING_OF_STUB_USER_CODE_9_2410768248
+#include "vcast_configure_stub.c"
+#undef BEGINNING_OF_STUB_USER_CODE_9_2410768248
+  if ( vcast_is_in_driver ) {
+    P_9_8_1 = event;
+    vCAST_COMMON_STUB_PROC_9( 9, 8, 2, 0 );
+  } /* vcast_is_in_driver */
+#define END_OF_STUB_USER_CODE_9_2410768248
+#include "vcast_configure_stub.c"
+#undef END_OF_STUB_USER_CODE_9_2410768248
+  vCAST_USER_CODE_TIMER_START();
+  return R_9_8;
+}
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="29">
+    <kind>ADD_TEXT_AFTER</kind>
+    <pos description="FUNCTION_BODY_OPEN" function="EventHandler">
+      <line>216</line>
+      <col>39</col>
+    </pos>
+    <text>/*vcast_internal_start*/{/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="30">
+    <kind>ADD_TEXT_BEFORE</kind>
+    <pos description="FUNCTION_BODY_CLOSE" function="EventHandler">
+      <line>244</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/}/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="31">
+    <kind>ADD_TEXT_BEFORE</kind>
+    <pos description="UNIT_APPENDIX_START">
+      <line>247</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+enum eventValues P_9_8_1;
+enum e_status R_9_8;
+unsigned char SBF_9_8 = 0;
+
+/*vcast_internal_end*/
+</text>
+  </modification>
+</changeset>
