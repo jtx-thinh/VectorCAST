@@ -35,6 +35,14 @@ float Add_Tax_Tip( float check_total, float sales_tax, float tip )
     {
         tax = default_tax;
     }
+    else if (sales_tax == 1)
+    {
+        tax = default_tax;
+    }
+    else if (sales_tax == 11)
+    {
+        tax = default_tax;
+    }
     else
     {
         tax = 0;
