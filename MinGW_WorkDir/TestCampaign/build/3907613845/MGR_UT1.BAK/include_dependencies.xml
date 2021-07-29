@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<includedeps>
-  <unit id="9">
-    <file chksum="d0952ab4357153ec27f09efa93aa36dc" timestamp="1566523404" type_of_element="">C:/VCAST/Training/SourceFiles/ctypes.h</file>
-    <file chksum="a9dd630cd2cca213a941086c39fb3d40" timestamp="1566523404" type_of_element="">C:/VCAST/Training/SourceFiles/database.h</file>
-    <file chksum="0a0bdbd5c9fae3b9fe08a315072e86f7" timestamp="1566523404" type_of_element="">C:/VCAST/Training/SourceFiles/manager.c</file>
-  </unit>
-</includedeps>
